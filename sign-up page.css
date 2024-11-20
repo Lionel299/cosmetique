@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(33, 32, 32);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('./background\ 1.png');
+}
+.topnav{
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    margin: 1px;
+    padding-left: 150px;
+    color: white;
+    text-decoration: none;
+    font-family: Times New Roman, Times, serif;
+    font-size: large;
+    text-align: center;
+}
+.topnav a:hover{
+    color: aqua;
+}
+.topnav a.active{
+    color: aqua;
+}
+.sign-up{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+    color: white;
+}
+.photo img{
+    width: 100px;  
+}
+.informations{
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.informations input{
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+}
+button{
+    background-color: rgb(100, 223, 100);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 170px;
+}
+button:hover{
+    background-color: rgb(30, 186, 56);
+    cursor: pointer;
+}
+
+
+
+
